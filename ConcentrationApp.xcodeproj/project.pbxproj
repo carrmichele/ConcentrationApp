@@ -14,6 +14,8 @@
 		7AF1E3441FC3D91700066962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF1E3421FC3D91700066962 /* LaunchScreen.storyboard */; };
 		7AF1E34F1FC3D91700066962 /* ConcentrationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1E34E1FC3D91700066962 /* ConcentrationAppTests.swift */; };
 		7AF1E35A1FC3D91700066962 /* ConcentrationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1E3591FC3D91700066962 /* ConcentrationAppUITests.swift */; };
+		7AF1E3681FC8CAA900066962 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1E3671FC8CAA900066962 /* Concentration.swift */; };
+		7AF1E36A1FC8CB8100066962 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1E3691FC8CB8100066962 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7AF1E3551FC3D91700066962 /* ConcentrationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF1E3591FC3D91700066962 /* ConcentrationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationAppUITests.swift; sourceTree = "<group>"; };
 		7AF1E35B1FC3D91700066962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF1E3671FC8CAA900066962 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		7AF1E3691FC8CB8100066962 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		7AF1E3381FC3D91700066962 /* ConcentrationApp */ = {
 			isa = PBXGroup;
 			children = (
+				7AF1E3671FC8CAA900066962 /* Concentration.swift */,
+				7AF1E3691FC8CB8100066962 /* Card.swift */,
 				7AF1E3391FC3D91700066962 /* AppDelegate.swift */,
 				7AF1E33B1FC3D91700066962 /* ViewController.swift */,
 				7AF1E33D1FC3D91700066962 /* Main.storyboard */,
@@ -187,6 +193,9 @@
 		7AF1E32E1FC3D91700066962 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Caroline Gordon";
@@ -261,6 +270,8 @@
 			files = (
 				7AF1E33C1FC3D91700066962 /* ViewController.swift in Sources */,
 				7AF1E33A1FC3D91700066962 /* AppDelegate.swift in Sources */,
+				7AF1E3681FC8CAA900066962 /* Concentration.swift in Sources */,
+				7AF1E36A1FC8CB8100066962 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
